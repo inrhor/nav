@@ -7,7 +7,7 @@ const c: IConfig = {
 
   // [Mondatory], Please replace following Github url with your own Github address which you forked in.
   // [必填], 请填写您的仓库地址
-  gitRepoUrl: 'https://github.com/xjh22222228/nav',
+  gitRepoUrl: 'https://github.com/inrhor/nav',
 
   // Deployment branch name
   // 部署分支
@@ -29,19 +29,19 @@ const c: IConfig = {
 
   // Your website address is good for SEO
   // 您的网站地址，有利于SEO
-  homeUrl: 'https://nav3.cn',
+  homeUrl: 'https://nav.hiusers.com',
 
   // Site title
   // 网站标题
-  title: '发现导航 - 精选实用导航网站',
+  title: '狡诈师的收藏世界',
 
   // Site description
   // 网站描述
-  description: '发现导航 - 精选实用导航网站',
+  description: '收藏与导航',
 
   // Site keywords
   // 网站关键字
-  keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
+  keywords: 'Hi Users',
 
   // Default theme: Light | Sim | Side | App | Shortcut
   // 默认主题: Light | Sim | Side | App | Shortcut
@@ -50,6 +50,7 @@ const c: IConfig = {
   // The content at the bottom of the website, copyright information, record number, can be HTML
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
   footerContent: `
+    <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021089566号</a>
     <div style="font-weight: bold;">共收录\${total}个网站</div>
     <div>Copyright © 2018-2021 nav3.cn, All Rights Reserved</div>
   `,
@@ -77,7 +78,7 @@ const c: IConfig = {
     posterImageUrls: [
       'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
     ],
-    description: '这里收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活'
+    description: '这里收录多达 <b>${total}</b> 个网站'
   }
 }
 
